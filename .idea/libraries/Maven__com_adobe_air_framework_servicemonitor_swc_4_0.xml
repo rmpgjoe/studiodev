@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.adobe.air.framework:servicemonitor:swc:4.0" type="flex">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/air/framework/servicemonitor/4.0/servicemonitor-4.0.swc!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/air/framework/servicemonitor/4.0/servicemonitor-4.0-asdoc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/air/framework/servicemonitor/4.0/servicemonitor-4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

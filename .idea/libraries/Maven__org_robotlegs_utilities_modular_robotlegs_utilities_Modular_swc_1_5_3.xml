@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.robotlegs.utilities.modular:robotlegs-utilities-Modular:swc:1.5.3" type="flex">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/robotlegs/utilities/modular/robotlegs-utilities-Modular/1.5.3/robotlegs-utilities-Modular-1.5.3.swc!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/robotlegs/utilities/modular/robotlegs-utilities-Modular/1.5.3/robotlegs-utilities-Modular-1.5.3-asdoc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/robotlegs/utilities/modular/robotlegs-utilities-Modular/1.5.3/robotlegs-utilities-Modular-1.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

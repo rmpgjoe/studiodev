@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.robotlegs.utilities.macrobot:robotlegs-utilities-Macrobot:swc:1.0.0" type="flex">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/robotlegs/utilities/macrobot/robotlegs-utilities-Macrobot/1.0.0/robotlegs-utilities-Macrobot-1.0.0.swc!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/robotlegs/utilities/macrobot/robotlegs-utilities-Macrobot/1.0.0/robotlegs-utilities-Macrobot-1.0.0-asdoc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/robotlegs/utilities/macrobot/robotlegs-utilities-Macrobot/1.0.0/robotlegs-utilities-Macrobot-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

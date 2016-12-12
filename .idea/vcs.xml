@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../nimbus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../reach-engine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../studio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../studio-services" vcs="Git" />
+  </component>
+</project>

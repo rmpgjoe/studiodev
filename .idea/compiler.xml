@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="nimbus-common-server" />
+        <module name="nimbus-module-projects-server" />
+        <module name="NimbusCommonLibs" />
+        <module name="re-delivery-plugin-all" />
+        <module name="re-delivery-plugin-aspera" />
+        <module name="re-delivery-plugin-aws" />
+        <module name="re-delivery-plugin-common" />
+        <module name="re-delivery-plugin-ftp" />
+        <module name="re-delivery-plugin-iTunes" />
+        <module name="re-delivery-plugin-sftp" />
+        <module name="re-delivery-plugin-workflow" />
+        <module name="re-studio-server" />
+        <module name="re-studio-shell" />
+        <module name="re-studio-theme" />
+        <module name="re-workflow-plugin" />
+        <module name="reach-engine" />
+        <module name="reach-engine-security" />
+        <module name="reach-engine-services" />
+        <module name="reach-engine-test" />
+        <module name="studio-services" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Nimbus" target="1.7" />
+      <module name="nimbus-common" target="1.7" />
+      <module name="nimbus-common-server" target="1.7" />
+      <module name="nimbus-common-ui" target="1.7" />
+      <module name="nimbus-module-projects" target="1.7" />
+      <module name="nimbus-module-projects-server" target="1.7" />
+      <module name="nimbus-modules" target="1.7" />
+      <module name="NimbusCommonLibs" target="1.7" />
+      <module name="re-delivery-plugin" target="1.7" />
+      <module name="re-delivery-plugin-all" target="1.7" />
+      <module name="re-delivery-plugin-aspera" target="1.7" />
+      <module name="re-delivery-plugin-aws" target="1.7" />
+      <module name="re-delivery-plugin-common" target="1.7" />
+      <module name="re-delivery-plugin-ftp" target="1.7" />
+      <module name="re-delivery-plugin-iTunes" target="1.7" />
+      <module name="re-delivery-plugin-sftp" target="1.7" />
+      <module name="re-delivery-plugin-workflow" target="1.7" />
+      <module name="re-studio" target="1.7" />
+      <module name="re-studio-server" target="1.7" />
+      <module name="re-studio-shell" target="1.7" />
+      <module name="re-studio-theme" target="1.7" />
+      <module name="re-studio-ui" target="1.7" />
+      <module name="re-workflow-plugin" target="1.7" />
+      <module name="reach-engine" target="1.7" />
+      <module name="reach-engine-project" target="1.7" />
+      <module name="reach-engine-security" target="1.7" />
+      <module name="reach-engine-services" target="1.7" />
+      <module name="reach-engine-test" target="1.7" />
+      <module name="studio-services" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

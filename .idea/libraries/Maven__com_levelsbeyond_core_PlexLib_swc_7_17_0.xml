@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.levelsbeyond.core:PlexLib:swc:7.17.0" type="flex">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/levelsbeyond/core/PlexLib/7.17.0/PlexLib-7.17.0.swc!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/levelsbeyond/core/PlexLib/7.17.0/PlexLib-7.17.0-asdoc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/levelsbeyond/core/PlexLib/7.17.0/PlexLib-7.17.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

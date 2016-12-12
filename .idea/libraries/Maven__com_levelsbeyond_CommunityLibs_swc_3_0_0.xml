@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.levelsbeyond:CommunityLibs:swc:3.0.0" type="flex">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/levelsbeyond/CommunityLibs/3.0.0/CommunityLibs-3.0.0.swc!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/levelsbeyond/CommunityLibs/3.0.0/CommunityLibs-3.0.0-asdoc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/levelsbeyond/CommunityLibs/3.0.0/CommunityLibs-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.adobe.utils:as3corelib:swc:0.93.0" type="flex">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/utils/as3corelib/0.93.0/as3corelib-0.93.0.swc!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/utils/as3corelib/0.93.0/as3corelib-0.93.0-asdoc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/utils/as3corelib/0.93.0/as3corelib-0.93.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
