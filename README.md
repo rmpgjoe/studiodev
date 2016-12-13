@@ -55,11 +55,9 @@ configuration.
 
 ## Launch
 
-This should hopefully be the easy part. On the launch bar in IntelliJ,
-select studio in the drop down and click the Run arrow or Debug bug.
+This should hopefully be the easy part. Make sure you have the docker ijdeploy environment up and running. On the launch bar in IntelliJ, select studio in the drop down and click the Run arrow or Debug bug.
 
-When making changes to your running environment, you can "Update" to
-deploy updated resources and classes without restarting the machine.
+When making changes to your running environment, you can "Update" to deploy updated resources and classes without restarting the machine.
 
 ## Troubleshooting
 
