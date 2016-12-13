@@ -1,7 +1,17 @@
-/out
+# IntelliJ
+/out/
 
+# edit backups
 *.orig
+
+# file-based project format
 *.iws
 
+# User specific files
 **/workspace.xml
 **/tasks.xml
+./idea/libraries
+./idea/flexmojos
+
+# JIRA plugin
+atlassian-ide-plugin.xml
