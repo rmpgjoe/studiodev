@@ -2,12 +2,15 @@
 
 ## Contents
 
-* [Configuration](#configuration)
-  * [Setup Instructions](#setup-instructions)
-* [Execution](#execution)
+* [Create Environment](#create-environment)
+* [Syncing the Projects](#sync)
+* [Environment Dependencies](#environment-dependencies)
+* [Environment Configuration](#environment-configuration)
+* [Launch](#launch)
+* [Troubleshooting](#troubleshooting)
 * [TODO](#todo)
 
-## Setup environment
+## Create Environment
 
 - Create a clone of this repository for your use managing your env
 - Create a directory on your machine that will hold your reach code
@@ -21,7 +24,7 @@
   - Point your IntelliJ tomcat server installation to /usr/local/tomcat
 
   
-## Keeping your environment/artifact in sync
+## Sync
 
 Whenever you have to synchronize your maven projects (such as now on 
 import), IntelliJ will helpfully overwrite your artifact definition.
@@ -54,3 +57,35 @@ configuration.
 
 This should hopefully be the easy part. On the launch bar in IntelliJ,
 select studio in the drop down and click the Run arrow or Debug bug.
+
+When making changes to your running environment, you can "Update" to
+deploy updated resources and classes without restarting the machine.
+
+## Troubleshooting
+
+The vast majority of issues with this environment are keeping IntelliJ's
+project definitions in sync with maven. That overrights the artifact 
+definition that IntelliJ uses to deploy. 
+
+### Lost configuration
+
+If you see:
+
+```
+SEVERE: Servlet [re-mule] in web application [] threw load() exception
+javax.servlet.ServletException: Property mule.context not set on ServletContext
+```
+
+or
+
+```
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=mongodb:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketException: mongodb}, caused by {java.net.UnknownHostException: mongodb}}]
+```
+
+Then you have most likely lost your redev compile output from your artifact definition. See [Sync](#sync).
+
+### Changes not being deployed
+
+If you are making code changes and not seeing them effect your launch, the project you are effecting is probably not getting its class files directly deployed into your artifact. Add the compile output for your project to the artifact as described in [Sync](#sync).
+
+## TODO
