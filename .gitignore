@@ -10,8 +10,8 @@
 # User specific files
 **/workspace.xml
 **/tasks.xml
-./idea/libraries
-./idea/flexmojos
+.idea/libraries
+.idea/flexmojos
 
 # JIRA plugin
 atlassian-ide-plugin.xml
