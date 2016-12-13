@@ -2,6 +2,7 @@
 
 ## Contents
 
+* [Environment Overview](#environment-overview)
 * [Create Environment](#create-environment)
 * [Syncing the Projects](#sync)
 * [Environment Dependencies](#environment-dependencies)
@@ -9,6 +10,20 @@
 * [Launch](#launch)
 * [Troubleshooting](#troubleshooting)
 * [TODO](#todo)
+
+## Environment Overview
+
+This environment uses the ijdeploy docker environment, a local tomcat install, and an IntelliJ internal launcher for development, deploying, and debugging.
+
+The environment setup will, as needed:
+- Install tomcat in the standardized location on your machine (/usr/local/tomcat) and configure it
+- clone the dependent repos for the project setup and configure upstream repos
+- provide a preconfigured IntelliJ environment and launcher
+- setup a media repository to share between host and docker environments
+- kick off an initial maven build to generate initial sources and validate repos
+
+It depends on:
+- ijdeploy docker environment
 
 ## Create Environment
 
@@ -22,21 +37,21 @@
   - configure spring components when prompted
 - Make sure the tomcat IntelliJ plugin is installed & enabled
   - Point your IntelliJ tomcat server installation to /usr/local/tomcat
-
+- Build your ijdeploy docker images (see studio-docker repo and docs)
   
 ## Sync
 
 Whenever you have to synchronize your maven projects (such as now on 
-import), IntelliJ will helpfully overwrite your artifact definition.
+import), IntelliJ will *helpfully* overwrite your artifact definition.
 That will remove your developer environment and class deployment from 
-the artifact. To fix this:
+the artifact. 
+
+To fix this:
 - Open Project Structure
 - Go to artifacts
 - Edit the re-studio-server:war exploded artifact
-- Click the context menu on redev compile output and put in 
-WEB-INF/classes
-- Repeat for any modules you are editing to include your changes in 
-redeploys
+- Click the context menu on redev compile output and put in WEB-INF/classes
+- Repeat for any modules you are editing to include your changes in redeploys
 
 ## Environment dependencies
 
@@ -62,8 +77,8 @@ When making changes to your running environment, you can "Update" to deploy upda
 ## Troubleshooting
 
 The vast majority of issues with this environment are keeping IntelliJ's
-project definitions in sync with maven. That overrights the artifact 
-definition that IntelliJ uses to deploy. 
+project definitions in sync with maven. That overwrites the artifact 
+definition that IntelliJ uses to deploy. That is stored at .idea/artifacts/re_studio_war_exploded.xml.
 
 ### Lost configuration
 

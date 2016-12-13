@@ -27,7 +27,7 @@ if [ ! -d "/Users/media" ]; then
     sudo chown `whoami` /Users/media || exit $?
 fi
 
-# homebrew tomcat install
+# tomcat install
 if [ ! -d "/usr/local/tomcat" ]; then
   cd
   wget https://s3.amazonaws.com/studio-install-stuff/apache-tomcat-7.0.47.tar.gz
