@@ -1,5 +1,7 @@
 #! /bin/bash
 
+export CATALINA_HOME="/usr/local/tomcat"
+LAUNCHDIR="$PWD"
 EXPECTED_HOME="redev"
 
 if [ "$#" -ne 1 ]; then
@@ -26,6 +28,15 @@ if [ ! -d "/Users/media" ]; then
 fi
 
 # homebrew tomcat install
+if [ ! -d "/usr/local/tomcat" ]; then
+  cd
+  wget https://s3.amazonaws.com/studio-install-stuff/apache-tomcat-7.0.47.tar.gz
+  tar -xzvf apache-tomcat-7.0.47.tar.gz
+  sudo mv apache-tomcat-7.0.47/ $CATALINA_HOME
+  cd $LAUNCHDIR/tomcatconfig
+  ./config.sh
+  cd ..
+fi
 
 echo
 echo "Cloning repos for github user $1"
