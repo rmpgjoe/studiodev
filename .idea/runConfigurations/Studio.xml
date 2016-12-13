@@ -9,7 +9,7 @@
       </artifact>
     </deployment>
     <server-settings>
-      <option name="BASE_DIRECTORY_NAME" value="Unnamed_re-dev" />
+      <option name="BASE_DIRECTORY_NAME" value="Unnamed_redev" />
     </server-settings>
     <log_file path="%IDEA_RUN:CATALINA_BASE%/logs/Reach-Engine.log" checked="true" skipped="false" show_all="false" alias="Reach-Engine.log" />
     <predefined_log_file id="Tomcat" enabled="true" />

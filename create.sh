@@ -1,6 +1,6 @@
 #! /bin/bash
 
-EXPECTED_HOME="re-dev"
+EXPECTED_HOME="redev"
 
 if [ "$#" -ne 1 ]; then
     echo "Usage:"
@@ -9,7 +9,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 if [[ "$PWD" != *"$EXPECTED_HOME" ]]; then 
-    echo "Must be run from re-dev repo directory"
+    echo "Must be run from redev repo directory"
     exit 1
 fi
 

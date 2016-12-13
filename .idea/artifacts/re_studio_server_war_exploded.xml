@@ -1,13 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="re-studio-server:war exploded">
-    <output-path>$PROJECT_DIR$/../studio/server/target/re-studio-1.12.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/../studio/server/target/re-studio-server-1.12.0-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="re-dev" />
+          <element id="module-output" name="redev" />
           <element id="module-output" name="re-studio-server" />
-          <element id="module-output" name="nimbus-common-ui" />
-          <element id="module-output" name="nimbus-common-server" />
+          <element id="module-output" name="nimbus-module-projects-server" />
+          <element id="module-output" name="nimbus-module-projects" />
           <element id="module-output" name="reach-engine" />
           <element id="module-output" name="studio-services" />
         </element>
@@ -452,7 +452,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/../studio/server/target/re-studio-1.12.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/../studio/server/target/re-studio-server-1.12.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="re-studio-server/web/Web" />
     </root>

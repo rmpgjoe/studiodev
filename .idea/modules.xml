@@ -19,7 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery/iTunes/re-delivery-plugin-iTunes.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-delivery/iTunes/re-delivery-plugin-iTunes.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery/sftp/re-delivery-plugin-sftp.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-delivery/sftp/re-delivery-plugin-sftp.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery/workflow/re-delivery-plugin-workflow.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-delivery/workflow/re-delivery-plugin-workflow.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
-      <module fileurl="file://$PROJECT_DIR$/re-dev.iml" filepath="$PROJECT_DIR$/re-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redev.iml" filepath="$PROJECT_DIR$/redev.iml" />
       <module fileurl="file://$PROJECT_DIR$/../studio/re-studio.iml" filepath="$PROJECT_DIR$/../studio/re-studio.iml" group="re-studio and modules" />
       <module fileurl="file://$PROJECT_DIR$/../studio/server/re-studio-server.iml" filepath="$PROJECT_DIR$/../studio/server/re-studio-server.iml" group="re-studio and modules" />
       <module fileurl="file://$PROJECT_DIR$/../studio/UI/reproductShell/re-studio-shell.iml" filepath="$PROJECT_DIR$/../studio/UI/reproductShell/re-studio-shell.iml" group="re-studio and modules/re-studio-ui and modules" />
