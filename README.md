@@ -27,7 +27,6 @@ It depends on:
 
 ## Create Environment
 
-- Create a clone of this repository for your use managing your env
 - Create a directory on your machine that will hold your reach code
 - Clone this repository into that directory
 - from the terminal, go into this repo and run ./create.sh <githubusername>
