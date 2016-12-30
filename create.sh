@@ -41,7 +41,7 @@ fi
 echo
 echo "Cloning repos for github user $1"
 
-repos=( "studio-docker" "reach-engine" "studio-services" "nimbus" "studio" )
+repos=( "studio-docker" "reach-engine" "studio" )
 
 cd ..
 
