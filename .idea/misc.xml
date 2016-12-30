@@ -42,14 +42,12 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/../studio/server" />
+    <file type="web" url="file://$PROJECT_DIR$/../studio" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/../reach-engine/pom.xml" />
-        <option value="$PROJECT_DIR$/../studio-services/pom.xml" />
-        <option value="$PROJECT_DIR$/../nimbus/pom.xml" />
         <option value="$PROJECT_DIR$/../studio/pom.xml" />
       </list>
     </option>

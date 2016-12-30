@@ -22,9 +22,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="nimbus-common-server" />
-        <module name="nimbus-module-projects-server" />
-        <module name="NimbusCommonLibs" />
         <module name="re-delivery-plugin-all" />
         <module name="re-delivery-plugin-aspera" />
         <module name="re-delivery-plugin-aws" />
@@ -41,7 +38,6 @@
         <module name="reach-engine-security" />
         <module name="reach-engine-services" />
         <module name="reach-engine-test" />
-        <module name="studio-services" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../nimbus/Nimbus.iml" filepath="$PROJECT_DIR$/../nimbus/Nimbus.iml" group="Nimbus and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../nimbus/common/ui/CommonNimbusLib/NimbusCommonLibs.iml" filepath="$PROJECT_DIR$/../nimbus/common/ui/CommonNimbusLib/NimbusCommonLibs.iml" group="Nimbus and modules/nimbus-common and modules/nimbus-common-ui and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../nimbus/common/nimbus-common.iml" filepath="$PROJECT_DIR$/../nimbus/common/nimbus-common.iml" group="Nimbus and modules/nimbus-common and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../nimbus/common/server/nimbus-common-server.iml" filepath="$PROJECT_DIR$/../nimbus/common/server/nimbus-common-server.iml" group="Nimbus and modules/nimbus-common and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../nimbus/common/ui/nimbus-common-ui.iml" filepath="$PROJECT_DIR$/../nimbus/common/ui/nimbus-common-ui.iml" group="Nimbus and modules/nimbus-common and modules/nimbus-common-ui and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../nimbus/modules/projects/nimbus-module-projects.iml" filepath="$PROJECT_DIR$/../nimbus/modules/projects/nimbus-module-projects.iml" group="Nimbus and modules/nimbus-modules and modules/nimbus-module-projects and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../nimbus/modules/projects/server/nimbus-module-projects-server.iml" filepath="$PROJECT_DIR$/../nimbus/modules/projects/server/nimbus-module-projects-server.iml" group="Nimbus and modules/nimbus-modules and modules/nimbus-module-projects and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../nimbus/modules/nimbus-modules.iml" filepath="$PROJECT_DIR$/../nimbus/modules/nimbus-modules.iml" group="Nimbus and modules/nimbus-modules and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery/re-delivery-plugin.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-delivery/re-delivery-plugin.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery/all-transports/re-delivery-plugin-all.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-delivery/all-transports/re-delivery-plugin-all.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery/aspera/re-delivery-plugin-aspera.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-delivery/aspera/re-delivery-plugin-aspera.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
@@ -20,10 +12,10 @@
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery/sftp/re-delivery-plugin-sftp.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-delivery/sftp/re-delivery-plugin-sftp.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery/workflow/re-delivery-plugin-workflow.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-delivery/workflow/re-delivery-plugin-workflow.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
       <module fileurl="file://$PROJECT_DIR$/../studio/re-studio.iml" filepath="$PROJECT_DIR$/../studio/re-studio.iml" group="re-studio and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../studio/server/re-studio-server.iml" filepath="$PROJECT_DIR$/../studio/server/re-studio-server.iml" group="re-studio and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../studio/UI/reproductShell/re-studio-shell.iml" filepath="$PROJECT_DIR$/../studio/UI/reproductShell/re-studio-shell.iml" group="re-studio and modules/re-studio-ui and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../studio/UI/reproductTheme/re-studio-theme.iml" filepath="$PROJECT_DIR$/../studio/UI/reproductTheme/re-studio-theme.iml" group="re-studio and modules/re-studio-ui and modules" />
-      <module fileurl="file://$PROJECT_DIR$/../studio/UI/re-studio-ui.iml" filepath="$PROJECT_DIR$/../studio/UI/re-studio-ui.iml" group="re-studio and modules/re-studio-ui and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../studio/server/re-studio-server.iml" filepath="$PROJECT_DIR$/../studio/server/re-studio-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../studio/UI/reproductShell/re-studio-shell.iml" filepath="$PROJECT_DIR$/../studio/UI/reproductShell/re-studio-shell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../studio/UI/reproductTheme/re-studio-theme.iml" filepath="$PROJECT_DIR$/../studio/UI/reproductTheme/re-studio-theme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../studio/UI/re-studio-ui.iml" filepath="$PROJECT_DIR$/../studio/UI/re-studio-ui.iml" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-workflow/re-workflow-plugin.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-workflow/re-workflow-plugin.iml" group="reach-engine-project and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-core/reach-engine.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-core/reach-engine.iml" group="reach-engine-project and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-project.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-project.iml" group="reach-engine-project and modules" />
@@ -31,7 +23,6 @@
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-services/reach-engine-services.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-services/reach-engine-services.iml" group="reach-engine-project and modules" />
       <module fileurl="file://$PROJECT_DIR$/../reach-engine/reach-engine-test/reach-engine-test.iml" filepath="$PROJECT_DIR$/../reach-engine/reach-engine-test/reach-engine-test.iml" group="reach-engine-project and modules" />
       <module fileurl="file://$PROJECT_DIR$/redev.iml" filepath="$PROJECT_DIR$/redev.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../studio-services/studio-services.iml" filepath="$PROJECT_DIR$/../studio-services/studio-services.iml" />
     </modules>
   </component>
 </project>

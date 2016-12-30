@@ -6,16 +6,12 @@
         <element id="directory" name="classes">
           <element id="module-output" name="redev" />
           <element id="module-output" name="re-studio-server" />
-          <element id="module-output" name="nimbus-module-projects-server" />
-          <element id="module-output" name="nimbus-module-projects" />
-          <element id="module-output" name="reach-engine" />
-          <element id="module-output" name="studio-services" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.levelsbeyond.nimbus.modules.projects:nimbus-module-projects-server:2.17.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.nimbus.common:nimbus-common-server:2.17.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond:reach-engine:14.0.1" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.security:reach-engine-security:14.0.1" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.nimbus.modules.projects:nimbus-module-projects-server:develop-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.nimbus.common:nimbus-common-server:develop-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond:reach-engine:develop-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.security:reach-engine-security:develop-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.google.http-client:google-http-client:1.20.0" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
           <element id="library" level="project" name="Maven: com.google.http-client:google-http-client-jackson2:1.20.0" />
@@ -371,25 +367,25 @@
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.8.1" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:annotations:2.0.3" />
           <element id="library" level="project" name="Maven: org.immutables:value:2.1.15" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-workflow-plugin:14.0.1" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-workflow-plugin:develop-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.clojars.ghoseb:cron4j:2.2.4" />
           <element id="library" level="project" name="Maven: com.levelsbeyond:workflow-provider:1.0.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond:reach-engine-services:14.0.1" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond:studio-services:2.20.0" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond:reach-engine-services:develop-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond:studio-services:develop-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.antlr:antlr-runtime:3.5" />
           <element id="library" level="project" name="Maven: org.antlr:stringtemplate:3.2.1" />
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-all:14.0.1" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-common:14.0.1" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-ftp:14.0.1" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-sftp:14.0.1" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-all:develop-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-common:develop-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-ftp:develop-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-sftp:develop-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.jcraft:jsch:0.1.53" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aspera:14.0.1" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aspera:develop-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.asperasoft:faspmanager:2.7.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-iTunes:14.0.1" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aws:14.0.1" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-iTunes:develop-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aws:develop-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.levelsbeyond.aws:reach-engine-aws:1.2.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-workflow:14.0.1" />
+          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-workflow:develop-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-storage-plugin:1.1.0" />
           <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:transfer-plugin-standard:1.3.0" />
           <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:converter-plugin-ffmpeg:1.5.0" />
@@ -439,7 +435,7 @@
           <element id="archive" name="re-studio-shell-1.12.0-SNAPSHOT.swf">
             <element id="module-output" name="re-studio-shell" />
           </element>
-          <element id="library" level="project" name="Maven: org.twitter4j:twitter4j-core:4.0.5" />
+          <element id="library" level="project" name="Maven: org.twitter4j:twitter4j-core:4.0.6" />
           <element id="library" level="project" name="Maven: com.restfb:restfb:1.6.11" />
           <element id="library" level="project" name="Maven: com.google:gdata-client:1.0" />
           <element id="library" level="project" name="Maven: com.google:gdata-client-meta:1.0" />
