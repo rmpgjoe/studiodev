@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../nimbus" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../nimbus/common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../nimbus/common/server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../nimbus/common/ui" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../nimbus/common/ui/CommonNimbusLib" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../nimbus/modules" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../nimbus/modules/projects" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../nimbus/modules/projects/server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../reach-engine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../reach-engine/reach-engine-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../reach-engine/reach-engine-delivery" charset="UTF-8" />
@@ -25,10 +17,5 @@
     <file url="file://$PROJECT_DIR$/../reach-engine/reach-engine-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../reach-engine/reach-engine-workflow" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../studio" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../studio-services" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../studio/UI" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../studio/UI/reproductShell" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../studio/UI/reproductTheme" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../studio/server" charset="UTF-8" />
   </component>
 </project>
