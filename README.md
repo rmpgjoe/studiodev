@@ -16,7 +16,7 @@
 This environment uses the ijdeploy docker environment, a local tomcat install, and an IntelliJ internal launcher for development, deploying, and debugging.
 
 The environment setup will, as needed:
-- Install tomcat in the standardized location on your machine (/usr/local/tomcat) and configure it
+- Install tomcat in the standardized location on your machine (~/tomcat) and configure it
 - clone the dependent repos for the project setup and configure upstream repos
 - provide a preconfigured IntelliJ environment and launcher
 - setup a media repository to share between host and docker environments
@@ -28,33 +28,36 @@ It depends on:
 ## Create Environment
 
 - Create a directory on your machine that will hold your reach code
-- Clone this repository into that directory
+- Fork-and-Clone this repository into that directory
+- Fork-and-Clone studio-docker: https://github.com/levelsbeyond/studio-docker
+- Fork-and-Clone studio: https://github.com/levelsbeyond/studio
+- Fork-and-Clone reach-engine: https://github.com/levelsbeyond/reach-engine
 - from the terminal, go into this repo and run ./create.sh <githubusername>
 - if prompted, enter your local machine password for sudo
 - once complete, open this repo as a intellij project
   - auto-import maven projects when prompted
   - configure spring components when prompted
 - Make sure the tomcat IntelliJ plugin is installed & enabled
-  - Point your IntelliJ tomcat server installation to /usr/local/tomcat
+  - Point your IntelliJ tomcat server installation to ~/tomcat
 - Build your ijdeploy docker images (see studio-docker repo and docs)
   
 ## Sync
 
 Whenever you have to synchronize your maven projects (such as now on 
-import), IntelliJ will *helpfully* overwrite your artifact definition.
+import), IntelliJ will overwrite your artifact definition.
 That will remove your developer environment and class deployment from 
 the artifact. 
 
 To fix this:
-- Open Project Structure
+- Open File -> Project Structure (cmd-;)
 - Go to artifacts
-- Edit the re-studio-server:war exploded artifact
-- Click the context menu on redev compile output and put in WEB-INF/classes
+- Select the 're-studio-server:war exploded' artifact
+- In the 'Available Elements ?' column, right click `studiodev` and select 'put in WEB-INF/classes'
 - Repeat for any modules you are editing to include your changes in redeploys
 
 ## Environment dependencies
 
-IntelliJ uses the /usr/local/tomcat deployment and its Log4J.properties
+IntelliJ uses the ~/tomcat deployment and its Log4J.properties
 and context.xml to internally launch the application. Other external 
 dependencies are managed in by the studio-docker/ijdeploy docker images.
 They will setup /Users/media for a shared filesystem. See 
@@ -64,7 +67,7 @@ Docker images must be running before launching application.
 
 ## Environment Configuration
 
-The launch will deploy and use the files in redev/devenv for application 
+The launch will deploy and use the files in studiodev/devenv for application 
 configuration.
 
 ## Launch
@@ -94,7 +97,7 @@ or
 Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=mongodb:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketException: mongodb}, caused by {java.net.UnknownHostException: mongodb}}]
 ```
 
-Then you have most likely lost your redev compile output from your artifact definition. See [Sync](#sync).
+Then you have most likely lost your studiodev compile output from your artifact definition. See [Sync](#sync).
 
 ### Changes not being deployed
 

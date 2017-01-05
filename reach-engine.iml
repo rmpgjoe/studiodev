@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../reach-engine/reach-engine-core/target/generated-sources/metamodel" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../reach-engine/reach-engine-core/target/generated-sources/xmlbeans" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/../reach-engine/reach-engine-core/target/1483136649230" />
+      <excludeFolder url="file://$MODULE_DIR$/../reach-engine/reach-engine-core/target/1483639616910" />
       <excludeFolder url="file://$MODULE_DIR$/../reach-engine/reach-engine-core/target/generated-classes" />
       <excludeFolder url="file://$MODULE_DIR$/../reach-engine/reach-engine-core/target/maven-archiver" />
       <excludeFolder url="file://$MODULE_DIR$/../reach-engine/reach-engine-core/target/maven-status" />
