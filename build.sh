@@ -1,17 +1,17 @@
 #! /bin/bash
 
-EXPECTED_HOME="redev"
+EXPECTED_HOME="studiodev"
 
 if [[ "$PWD" != *"$EXPECTED_HOME" ]]; then 
-    echo "Must be run from redev repo directory"
+    echo "Must be run from studiodev repo directory"
     exit 1
 fi
 
 echo "Executing Maven Builds"
 
-repos=( "reach-engine" "studio-services" "nimbus" "studio" )
+repos=( "reach-engine" "studio" )
 
-if [[ "$1" == "true" ]]; then
+if [[ "$1" == "-DskipTests" ]]; then
   FLAG="-DskipTests"
 fi
 

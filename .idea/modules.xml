@@ -17,8 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/reach-engine-project.iml" filepath="$PROJECT_DIR$/reach-engine-project.iml" />
       <module fileurl="file://$PROJECT_DIR$/reach-engine-security.iml" filepath="$PROJECT_DIR$/reach-engine-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/reach-engine-services.iml" filepath="$PROJECT_DIR$/reach-engine-services.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reach-engine-test.iml" filepath="$PROJECT_DIR$/reach-engine-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redev.iml" filepath="$PROJECT_DIR$/redev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studiodev.iml" filepath="$PROJECT_DIR$/studiodev.iml" />
     </modules>
   </component>
 </project>

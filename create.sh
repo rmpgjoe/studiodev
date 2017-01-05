@@ -1,8 +1,11 @@
 #! /bin/bash
 
-export CATALINA_HOME="/usr/local/tomcat"
 LAUNCHDIR="$PWD"
-EXPECTED_HOME="redev"
+EXPECTED_HOME="studiodev"
+CATALINA_VERSION=7.0.47
+CATALINA_ROOT=~/tomcat
+
+export CATALINA_HOME=$CATALINA_ROOT/apache-tomcat-$CATALINA_VERSION
 
 if [ "$#" -ne 1 ]; then
     echo "Usage:"
@@ -11,7 +14,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 if [[ "$PWD" != *"$EXPECTED_HOME" ]]; then 
-    echo "Must be run from redev repo directory"
+    echo "Must be run from studiodev repo directory"
     exit 1
 fi
 
@@ -28,11 +31,13 @@ if [ ! -d "/Users/media" ]; then
 fi
 
 # tomcat install
-if [ ! -d "/usr/local/tomcat" ]; then
+if [ ! -d $CATALINA_HOME ]; then
   cd
-  wget https://s3.amazonaws.com/studio-install-stuff/apache-tomcat-7.0.47.tar.gz
-  tar -xzvf apache-tomcat-7.0.47.tar.gz
-  sudo mv apache-tomcat-7.0.47/ $CATALINA_HOME
+  mkdir -p $CATALINA_HOME
+  cd ~/Downloads
+  curl "https://s3.amazonaws.com/studio-install-stuff/apache-tomcat-$CATALINA_VERSION.tar.gz" -o "apache-tomcat-$CATALINA_VERSION.tar.gz"
+  tar -xzvf apache-tomcat-$CATALINA_VERSION.tar.gz
+  mv apache-tomcat-$CATALINA_VERSION/* $CATALINA_HOME
   cd $LAUNCHDIR/tomcatconfig
   ./config.sh
   cd ..
@@ -54,4 +59,4 @@ do
 done
 
 cd $EXPECTED_HOME
-./build.sh
+#./build.sh
