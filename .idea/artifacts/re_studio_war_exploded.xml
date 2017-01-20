@@ -5,23 +5,14 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="re-studio" />
-          <element id="module-output" name="studiodev" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.levelsbeyond.collaborate:collaborate-workflows:1.8.0" />
           <element id="library" level="project" name="Maven: com.levelsbeyond:workflow-provider:1.0.0" />
           <element id="library" level="project" name="Maven: com.levelsbeyond.app:app-workflows:1.6.3" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond:reach-engine:14.4.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.security:reach-engine-security:14.4.0" />
-          <element id="library" level="project" name="Maven: com.google.http-client:google-http-client:1.20.0" />
-          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
-          <element id="library" level="project" name="Maven: com.google.http-client:google-http-client-jackson2:1.20.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.1.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.1.RELEASE" />
-          <element id="library" level="project" name="Maven: org.jdbi:jdbi:2.55" />
-          <element id="library" level="project" name="Maven: org.liquibase:liquibase-core:3.2.2" />
-          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.14" />
-          <element id="library" level="project" name="Maven: com.okta:okta-sdk:0.0.5" />
+          <element id="archive" name="reach-engine-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="reach-engine" />
+          </element>
           <element id="library" level="project" name="Maven: org.jongo:jongo:1.3.0" />
           <element id="library" level="project" name="Maven: de.undercouch:bson4jackson:2.7.0" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
@@ -61,6 +52,7 @@
           <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
           <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.1" />
           <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.mule.transports:mule-transport-http:3.3.1" />
           <element id="library" level="project" name="Maven: org.mule.transports:mule-transport-ssl:3.3.1" />
           <element id="library" level="project" name="Maven: tomcat:tomcat-util:5.5.23" />
@@ -78,6 +70,7 @@
           <element id="library" level="project" name="Maven: mx4j:mx4j-remote:2.1.1-osgi" />
           <element id="library" level="project" name="Maven: com.yourkit:yjp-controller-api-redist:9.0.8" />
           <element id="library" level="project" name="Maven: tanukisoft:wrapper:3.2.3" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.1.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.5.4" />
           <element id="library" level="project" name="Maven: org.mule.modules:mule-module-client:3.3.1" />
@@ -127,7 +120,6 @@
           <element id="library" level="project" name="Maven: org.glassfish.grizzly:grizzly-http-servlet:2.0.1-b2" />
           <element id="library" level="project" name="Maven: org.glassfish.grizzly:grizzly-framework:tests:2.0.1-b2" />
           <element id="library" level="project" name="Maven: org.glassfish:javax.servlet:3.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.sun.jersey.contribs:jersey-multipart:1.6" />
           <element id="library" level="project" name="Maven: org.jvnet:mimepull:1.4" />
           <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.6" />
@@ -259,24 +251,13 @@
           <element id="library" level="project" name="Maven: io.dropwizard:dropwizard-logging:0.7.1" />
           <element id="library" level="project" name="Maven: com.codahale.metrics:metrics-logback:3.0.2" />
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.6" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.0.7.v20131107" />
           <element id="library" level="project" name="Maven: io.dropwizard:dropwizard-metrics:0.7.1" />
           <element id="library" level="project" name="Maven: io.dropwizard:dropwizard-jersey:0.7.1" />
           <element id="library" level="project" name="Maven: com.sun.jersey:jersey-servlet:1.18.1" />
           <element id="library" level="project" name="Maven: io.dropwizard:dropwizard-servlets:0.7.1" />
-          <element id="library" level="project" name="Maven: io.dropwizard:dropwizard-jetty:0.7.1" />
-          <element id="library" level="project" name="Maven: com.codahale.metrics:metrics-jetty9:3.0.2" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.0.7.v20131107" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.0.7.v20131107" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlet:9.0.7.v20131107" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.0.7.v20131107" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlets:9.0.7.v20131107" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-continuation:9.0.7.v20131107" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.0.7.v20131107" />
           <element id="library" level="project" name="Maven: io.dropwizard:dropwizard-lifecycle:0.7.1" />
           <element id="library" level="project" name="Maven: net.sourceforge.argparse4j:argparse4j:0.4.3" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016" />
-          <element id="library" level="project" name="Maven: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:1.0.2" />
           <element id="library" level="project" name="Maven: com.amazonaws:aws-java-sdk:1.11.21" />
           <element id="library" level="project" name="Maven: com.amazonaws:aws-java-sdk-support:1.11.21" />
           <element id="library" level="project" name="Maven: com.amazonaws:aws-java-sdk-simpledb:1.11.21" />
@@ -347,6 +328,13 @@
           <element id="library" level="project" name="Maven: com.amazonaws:aws-java-sdk-applicationautoscaling:1.11.21" />
           <element id="library" level="project" name="Maven: com.amazonaws:aws-java-sdk-core:1.11.21" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.6.6" />
+          <element id="library" level="project" name="Maven: org.jdbi:jdbi:2.55" />
+          <element id="library" level="project" name="Maven: org.liquibase:liquibase-core:3.2.2" />
+          <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.14" />
+          <element id="library" level="project" name="Maven: com.google.http-client:google-http-client:1.20.0" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+          <element id="library" level="project" name="Maven: com.google.http-client:google-http-client-jackson2:1.20.0" />
+          <element id="library" level="project" name="Maven: com.okta:okta-sdk:0.0.5" />
           <element id="library" level="project" name="Maven: com.levelsbeyond.utils:reach-engine-utils:1.4.0" />
           <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.3.7" />
           <element id="library" level="project" name="Maven: javax.el:javax.el-api:2.2.4" />
@@ -360,20 +348,45 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.7.3" />
           <element id="library" level="project" name="Maven: com.google.code.findbugs:annotations:2.0.3" />
           <element id="library" level="project" name="Maven: org.immutables:value:2.1.15" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-workflow-plugin:14.4.0" />
+          <element id="library" level="project" name="Maven: com.datadoghq:java-dogstatsd-client:2.3" />
+          <element id="library" level="project" name="Maven: com.mattbertolini:liquibase-slf4j:1.2.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.16" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.16" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="archive" name="re-workflow-plugin-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-workflow-plugin" />
+          </element>
           <element id="library" level="project" name="Maven: org.clojars.ghoseb:cron4j:2.2.4" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond:reach-engine-services:14.4.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-all:14.4.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-common:14.4.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-ftp:14.4.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-sftp:14.4.0" />
+          <element id="archive" name="reach-engine-services-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="reach-engine-services" />
+          </element>
+          <element id="archive" name="re-delivery-plugin-all-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-delivery-plugin-all" />
+          </element>
+          <element id="archive" name="re-delivery-plugin-common-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-delivery-plugin-common" />
+          </element>
+          <element id="archive" name="re-delivery-plugin-ftp-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-delivery-plugin-ftp" />
+          </element>
+          <element id="archive" name="re-delivery-plugin-sftp-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-delivery-plugin-sftp" />
+          </element>
           <element id="library" level="project" name="Maven: com.jcraft:jsch:0.1.53" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aspera:14.4.0" />
+          <element id="archive" name="re-delivery-plugin-aspera-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-delivery-plugin-aspera" />
+          </element>
           <element id="library" level="project" name="Maven: com.asperasoft:faspmanager:2.7.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-iTunes:14.4.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aws:14.4.0" />
+          <element id="archive" name="re-delivery-plugin-iTunes-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-delivery-plugin-iTunes" />
+          </element>
+          <element id="archive" name="re-delivery-plugin-aws-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-delivery-plugin-aws" />
+          </element>
           <element id="library" level="project" name="Maven: com.levelsbeyond.aws:reach-engine-aws:1.2.0" />
-          <element id="library" level="project" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-workflow:14.4.0" />
+          <element id="archive" name="re-delivery-plugin-workflow-14.6.0-SNAPSHOT.jar">
+            <element id="module-output" name="re-delivery-plugin-workflow" />
+          </element>
           <element id="library" level="project" name="Maven: com.levelsbeyond:collaborate-sdk:1.0.0" />
           <element id="library" level="project" name="Maven: com.levelsbeyond:workflow-plugin-signiant:1.7.0" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.6" />
@@ -431,15 +444,14 @@
           <element id="library" level="project" name="Maven: org.antlr:stringtemplate:3.2.1" />
           <element id="library" level="project" name="Maven: antlr:antlr:2.7.7" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-compress:1.3" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
-          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: org.springframework.amqp:spring-amqp:1.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.amqp:spring-rabbit:1.1.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.1.RELEASE" />
           <element id="library" level="project" name="Maven: com.rabbitmq:amqp-client:2.8.4" />
           <element id="library" level="project" name="Maven: org.twitter4j:twitter4j-core:4.0.6" />
           <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2.2" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.1.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

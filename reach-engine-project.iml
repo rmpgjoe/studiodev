@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/../reach-engine/reach-engine-test/target/classes/applicationContext-reach-engine-security-ldap-anon-test.xml</file>
+          <file>file://$MODULE_DIR$/../reach-engine/reach-engine-test/target/classes/applicationContext-mongo-test.xml</file>
+          <file>file://$MODULE_DIR$/../reach-engine/reach-engine-test/target/classes/applicationContext-test.xml</file>
+          <file>file://$MODULE_DIR$/../reach-engine/reach-engine-test/target/classes/rql-context.xml</file>
+          <file>file://$MODULE_DIR$/../reach-engine/reach-engine-test/target/classes/pmApplicationContext.xml</file>
+          <file>file://$MODULE_DIR$/../reach-engine/reach-engine-test/target/classes/applicationContext-reach-engine-security-ldap-test.xml</file>
+          <file>file://$MODULE_DIR$/../reach-engine/reach-engine-test/target/classes/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/../reach-engine/reach-engine-test/target/classes/applicationContext-reach-engine-test.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../reach-engine/target/classes" />
     <output-test url="file://$MODULE_DIR$/../reach-engine/target/test-classes" />
@@ -29,5 +45,10 @@
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.8.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.findbugs:annotations:2.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.immutables:value:2.1.15" level="project" />
+    <orderEntry type="library" name="Maven: com.datadoghq:java-dogstatsd-client:2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.mattbertolini:liquibase-slf4j:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.16" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.16" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
   </component>
 </module>

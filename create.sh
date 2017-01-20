@@ -2,10 +2,8 @@
 
 LAUNCHDIR="$PWD"
 EXPECTED_HOME="studiodev"
-CATALINA_VERSION=7.0.47
-CATALINA_ROOT=~/tomcat
 
-export CATALINA_HOME=$CATALINA_ROOT/apache-tomcat-$CATALINA_VERSION
+export CATALINA_HOME=/usr/local/Cellar/tomcat7/7.0.64/libexec
 
 if [ "$#" -ne 1 ]; then
     echo "Usage:"
@@ -31,17 +29,15 @@ if [ ! -d "/Users/media" ]; then
 fi
 
 # tomcat install
-if [ ! -d $CATALINA_HOME ]; then
-  cd
-  mkdir -p $CATALINA_HOME
-  cd ~/Downloads
-  curl "https://s3.amazonaws.com/studio-install-stuff/apache-tomcat-$CATALINA_VERSION.tar.gz" -o "apache-tomcat-$CATALINA_VERSION.tar.gz"
-  tar -xzvf apache-tomcat-$CATALINA_VERSION.tar.gz
-  mv apache-tomcat-$CATALINA_VERSION/* $CATALINA_HOME
-  cd $LAUNCHDIR/tomcatconfig
-  ./config.sh
-  cd ..
-fi
+brew install tomcat7
+cd $LAUNCHDIR/tomcatconfig
+./config.sh
+cd ..
+
+# install media tools
+brew install mediainfo
+brew install imagemagick
+brew install ffmpeg
 
 echo
 echo "Cloning repos for github user $1"

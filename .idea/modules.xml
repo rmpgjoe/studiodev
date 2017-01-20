@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin.iml" filepath="$PROJECT_DIR$/re-delivery-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-all.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-all.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-aspera.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-aspera.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-aws.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-aws.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-common.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-ftp.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-ftp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-iTunes.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-iTunes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-sftp.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-sftp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-workflow.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-workflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin.iml" filepath="$PROJECT_DIR$/re-delivery-plugin.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-all.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-all.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-aspera.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-aspera.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-aws.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-aws.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-common.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-common.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-ftp.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-ftp.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-iTunes.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-iTunes.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-sftp.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-sftp.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
+      <module fileurl="file://$PROJECT_DIR$/re-delivery-plugin-workflow.iml" filepath="$PROJECT_DIR$/re-delivery-plugin-workflow.iml" group="reach-engine-project and modules/re-delivery-plugin and modules" />
       <module fileurl="file://$PROJECT_DIR$/re-studio.iml" filepath="$PROJECT_DIR$/re-studio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/re-workflow-plugin.iml" filepath="$PROJECT_DIR$/re-workflow-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reach-engine.iml" filepath="$PROJECT_DIR$/reach-engine.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reach-engine-project.iml" filepath="$PROJECT_DIR$/reach-engine-project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reach-engine-security.iml" filepath="$PROJECT_DIR$/reach-engine-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reach-engine-services.iml" filepath="$PROJECT_DIR$/reach-engine-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/re-workflow-plugin.iml" filepath="$PROJECT_DIR$/re-workflow-plugin.iml" group="reach-engine-project and modules" />
+      <module fileurl="file://$PROJECT_DIR$/reach-engine.iml" filepath="$PROJECT_DIR$/reach-engine.iml" group="reach-engine-project and modules" />
+      <module fileurl="file://$PROJECT_DIR$/reach-engine-project.iml" filepath="$PROJECT_DIR$/reach-engine-project.iml" group="reach-engine-project and modules" />
+      <module fileurl="file://$PROJECT_DIR$/reach-engine-services.iml" filepath="$PROJECT_DIR$/reach-engine-services.iml" group="reach-engine-project and modules" />
       <module fileurl="file://$PROJECT_DIR$/studiodev.iml" filepath="$PROJECT_DIR$/studiodev.iml" />
     </modules>
   </component>

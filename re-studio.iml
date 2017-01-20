@@ -19,6 +19,17 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/../studio/src/main/resources/applicationContext-nimbus-common.xml</file>
+          <file>file://$MODULE_DIR$/../studio/src/main/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/../studio/src/main/resources/applicationContext-anywhere-plugin.xml</file>
+          <file>file://$MODULE_DIR$/../studio/src/main/resources/applicationContext-studio-services.xml</file>
+          <file>file://$MODULE_DIR$/../studio/src/main/resources/applicationContext-nimbus-projects.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../studio/target/classes" />
@@ -44,20 +55,50 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: com.levelsbeyond.app:app-workflows:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond:reach-engine:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.security:reach-engine-security:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.0.7.v20131107" level="project" />
+    <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-jetty:0.7.1" level="project" />
+    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-jetty9:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-server:9.0.7.v20131107" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.0.7.v20131107" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-servlet:9.0.7.v20131107" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-security:9.0.7.v20131107" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-servlets:9.0.7.v20131107" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-continuation:9.0.7.v20131107" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-http:9.0.7.v20131107" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-workflow-plugin:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond:reach-engine-services:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-all:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-common:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-ftp:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-sftp:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aspera:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-iTunes:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aws:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-workflow:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.levelsbeyond:reach-engine-test:14.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.8.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.27" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-junit4:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-junit4-common:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-core:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-reflect:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-mockito:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-support:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:0.9.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path-assert:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: com.levelsbeyond.collaborate:collaborate-workflows:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: com.levelsbeyond:workflow-provider:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.levelsbeyond.app:app-workflows:1.6.3" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond:reach-engine:14.4.0" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.security:reach-engine-security:14.4.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client:1.20.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:1.3.9" level="project" />
-    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-jackson2:1.20.0" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-context:3.1.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:3.1.1.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.jdbi:jdbi:2.55" level="project" />
-    <orderEntry type="library" name="Maven: org.liquibase:liquibase-core:3.2.2" level="project" />
-    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.14" level="project" />
-    <orderEntry type="library" name="Maven: com.okta:okta-sdk:0.0.5" level="project" />
+    <orderEntry type="module" module-name="reach-engine" />
     <orderEntry type="library" name="Maven: org.jongo:jongo:1.3.0" level="project" />
     <orderEntry type="library" name="Maven: de.undercouch:bson4jackson:2.7.0" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
@@ -97,6 +138,7 @@
     <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: jaxen:jaxen:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: jdom:jdom:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:3.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mule.transports:mule-transport-http:3.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.mule.transports:mule-transport-ssl:3.3.1" level="project" />
     <orderEntry type="library" name="Maven: tomcat:tomcat-util:5.5.23" level="project" />
@@ -114,6 +156,7 @@
     <orderEntry type="library" name="Maven: mx4j:mx4j-remote:2.1.1-osgi" level="project" />
     <orderEntry type="library" name="Maven: com.yourkit:yjp-controller-api-redist:9.0.8" level="project" />
     <orderEntry type="library" name="Maven: tanukisoft:wrapper:3.2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.security:spring-security-core:3.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-web:3.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.mule.modules:mule-module-client:3.3.1" level="project" />
@@ -163,7 +206,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-http-servlet:2.0.1-b2" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.grizzly:grizzly-framework:tests:2.0.1-b2" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.servlet:3.0" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-aop:3.1.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey.contribs:jersey-multipart:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet:mimepull:1.4" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-core:1.6" level="project" />
@@ -295,24 +337,13 @@
     <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-logging:0.7.1" level="project" />
     <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-logback:3.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.6" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.0.7.v20131107" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-metrics:0.7.1" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-jersey:0.7.1" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-servlet:1.18.1" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-servlets:0.7.1" level="project" />
-    <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-jetty:0.7.1" level="project" />
-    <orderEntry type="library" name="Maven: com.codahale.metrics:metrics-jetty9:3.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-server:9.0.7.v20131107" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.0.7.v20131107" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-servlet:9.0.7.v20131107" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-security:9.0.7.v20131107" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-servlets:9.0.7.v20131107" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-continuation:9.0.7.v20131107" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-http:9.0.7.v20131107" level="project" />
     <orderEntry type="library" name="Maven: io.dropwizard:dropwizard-lifecycle:0.7.1" level="project" />
     <orderEntry type="library" name="Maven: net.sourceforge.argparse4j:argparse4j:0.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk:1.11.21" level="project" />
     <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-support:1.11.21" level="project" />
     <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-simpledb:1.11.21" level="project" />
@@ -383,6 +414,13 @@
     <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-applicationautoscaling:1.11.21" level="project" />
     <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk-core:1.11.21" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.6.6" level="project" />
+    <orderEntry type="library" name="Maven: org.jdbi:jdbi:2.55" level="project" />
+    <orderEntry type="library" name="Maven: org.liquibase:liquibase-core:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.14" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client:1.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:1.3.9" level="project" />
+    <orderEntry type="library" name="Maven: com.google.http-client:google-http-client-jackson2:1.20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.okta:okta-sdk:0.0.5" level="project" />
     <orderEntry type="library" name="Maven: com.levelsbeyond.utils:reach-engine-utils:1.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:2.3.7" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.el:javax.el-api:2.2.4" level="project" />
@@ -396,20 +434,25 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-guava:2.7.3" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.findbugs:annotations:2.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.immutables:value:2.1.15" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-workflow-plugin:14.4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.datadoghq:java-dogstatsd-client:2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.mattbertolini:liquibase-slf4j:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.16" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.16" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="module" module-name="re-workflow-plugin" />
     <orderEntry type="library" name="Maven: org.clojars.ghoseb:cron4j:2.2.4" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond:reach-engine-services:14.4.0" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-all:14.4.0" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-common:14.4.0" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-ftp:14.4.0" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-sftp:14.4.0" level="project" />
+    <orderEntry type="module" module-name="reach-engine-services" />
+    <orderEntry type="module" module-name="re-delivery-plugin-all" />
+    <orderEntry type="module" module-name="re-delivery-plugin-common" />
+    <orderEntry type="module" module-name="re-delivery-plugin-ftp" />
+    <orderEntry type="module" module-name="re-delivery-plugin-sftp" />
     <orderEntry type="library" name="Maven: com.jcraft:jsch:0.1.53" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aspera:14.4.0" level="project" />
+    <orderEntry type="module" module-name="re-delivery-plugin-aspera" />
     <orderEntry type="library" name="Maven: com.asperasoft:faspmanager:2.7.0" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-iTunes:14.4.0" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-aws:14.4.0" level="project" />
+    <orderEntry type="module" module-name="re-delivery-plugin-iTunes" />
+    <orderEntry type="module" module-name="re-delivery-plugin-aws" />
     <orderEntry type="library" name="Maven: com.levelsbeyond.aws:reach-engine-aws:1.2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.levelsbeyond.plugins:re-delivery-plugin-workflow:14.4.0" level="project" />
+    <orderEntry type="module" module-name="re-delivery-plugin-workflow" />
     <orderEntry type="library" name="Maven: com.levelsbeyond:collaborate-sdk:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.levelsbeyond:workflow-plugin-signiant:1.7.0" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
@@ -467,9 +510,6 @@
     <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.3" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.amqp:spring-amqp:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.amqp:spring-rabbit:1.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:3.1.1.RELEASE" level="project" />
@@ -477,21 +517,12 @@
     <orderEntry type="library" name="Maven: org.twitter4j:twitter4j-core:4.0.6" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.immutables:generate-tool:0.18" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.levelsbeyond:reach-engine-test:14.4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.8.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.27" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.levelsbeyond:reach-engine-test:14.6.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.48" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.1.1.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymock:3.1" level="project" />
     <orderEntry type="library" name="Maven: cglib:cglib-nodep:2.2.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-junit4:1.5.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-junit4-common:1.5.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-core:1.5.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-reflect:1.5.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-mockito:1.5.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-support:1.5.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: javassist:javassist:3.8.0.GA" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: de.flapdoodle.embed:de.flapdoodle.embed.mongo:1.50.0" level="project" />
@@ -505,13 +536,22 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:jsp-api-2.1:6.1.14" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mortbay.jetty:servlet-api-2.5:6.1.14" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: ant:ant:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat:tomcat-catalina-ws:7.0.73" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat:tomcat-catalina:7.0.73" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat:tomcat-servlet-api:7.0.73" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat:tomcat-juli:7.0.73" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat:tomcat-annotations-api:7.0.73" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat:tomcat-api:7.0.73" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.tomcat:tomcat-util:7.0.73" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path-assert:2.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:2.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:3.1.1.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jacoco:org.jacoco.agent:runtime:0.7.5.201505241946" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockftpserver:MockFtpServer:2.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: xmlunit:xmlunit:1.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path:0.9.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:1.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.jayway.jsonpath:json-path-assert:0.9.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-library:1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
