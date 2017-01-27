@@ -50,7 +50,9 @@ for i in "${repos[@]}"
 do
   if [ ! -d "$i" ]; then
     git clone https://github.com/$1/$i.git || exit $?
+    cd $i
     git remote add upstream https://github.com/levelsbeyond/$i.git
+    cd ..
   fi
 done
 
