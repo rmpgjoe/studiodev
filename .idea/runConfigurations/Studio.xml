@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Studio" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.64" ALTERNATIVE_JRE_ENABLED="false">
-    <option name="COMMON_VM_ARGUMENTS" value="-XX:MaxPermSize=128m" />
+    <option name="COMMON_VM_ARGUMENTS" value="-XX:MaxPermSize=256m -Xmx1024m" />
     <option name="UPDATING_POLICY" value="restart-server" />
     <deployment>
       <artifact name="re-studio:war exploded">
