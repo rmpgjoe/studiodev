@@ -39,9 +39,13 @@
     </properties>
   </component>
   <component name="EclipseCodeFormatter">
-    <option name="defaultSettings" value="true" />
-    <option name="id" value="1481305699025" />
-    <option name="name" value="default" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1481307650661" />
+    <option name="importOrderConfigFilePath" value="$PROJECT_DIR$/lb_formatter.importorder" />
+    <option name="importOrderFromFile" value="true" />
+    <option name="name" value="LB" />
+    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/lb_formatter.xml" />
+    <option name="selectedJavaProfile" value="LevelsBeyond" />
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />

@@ -16,14 +16,14 @@
 This environment uses the ijdeploy docker environment, a local tomcat install, and an IntelliJ internal launcher for development, deploying, and debugging.
 
 The environment setup will, as needed:
-- Install tomcat in the standardized location on your machine (~/tomcat) and configure it
+- install Homebrew
 - clone the dependent repos for the project setup and configure upstream repos
 - provide a preconfigured IntelliJ environment and launcher
 - setup a media repository to share between host and docker environments
 - kick off an initial maven build to generate initial sources and validate repos
 
 It depends on:
-- ijdeploy docker environment
+- hostdeployment docker environment in `studio-docker` repository
 
 ## Create Environment
 
@@ -39,7 +39,7 @@ It depends on:
   - configure spring components when prompted
 - Make sure the tomcat IntelliJ plugin is installed & enabled
   - Point your IntelliJ tomcat server installation to ~/tomcat
-- Build your ijdeploy docker images (see studio-docker repo and docs)
+- Build your hostdeployment docker images (see studio-docker repo and docs)
   
 ## Sync
 
@@ -57,7 +57,7 @@ To fix this:
 
 ## Environment dependencies
 
-IntelliJ uses the ~/tomcat deployment and its Log4J.properties
+IntelliJ uses the Homebrew tomcat deployment and its Log4J.properties
 and context.xml to internally launch the application. Other external 
 dependencies are managed in by the studio-docker/ijdeploy docker images.
 They will setup /Users/media for a shared filesystem. See 

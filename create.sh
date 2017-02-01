@@ -1,9 +1,11 @@
 #! /bin/bash
 
+CATALINA_VERSION=7.0.47
+CATALINA_ROOT=~/.reachengine/tomcat
 LAUNCHDIR="$PWD"
 EXPECTED_HOME="studiodev"
 
-export CATALINA_HOME=/usr/local/Cellar/tomcat7/7.0.64/libexec
+export CATALINA_HOME=$CATALINA_ROOT/apache-tomcat-$CATALINA_VERSION
 
 if [ "$#" -ne 1 ]; then
     echo "Usage:"
@@ -29,7 +31,17 @@ if [ ! -d "/Users/media" ]; then
 fi
 
 # tomcat install
-brew install tomcat7
+if [ ! -d $CATALINA_HOME ]; then
+    cd
+    mkdir -p $CATALINA_ROOT
+    mkdir -p $CATALINA_HOME
+    cd ~/Downloads
+    curl "https://s3.amazonaws.com/studio-install-stuff/apache-tomcat-$CATALINA_VERSION.tar.gz" -o "apache-tomcat-$CATALINA_VERSION.tar.gz"
+    tar -xzvf apache-tomcat-$CATALINA_VERSION.tar.gz
+    mv apache-tomcat-$CATALINA_VERSION/* $CATALINA_HOME
+fi
+
+#tomcat configure
 cd $LAUNCHDIR/tomcatconfig
 ./config.sh
 cd ..
