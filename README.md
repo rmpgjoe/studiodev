@@ -80,9 +80,23 @@ When making changes to your running environment, you can "Update" to deploy upda
 
 ## Troubleshooting
 
-The vast majority of issues with this environment are keeping IntelliJ's
-project definitions in sync with maven. That overwrites the artifact 
-definition that IntelliJ uses to deploy. That is stored at .idea/artifacts/re_studio_war_exploded.xml.
+- The app compiles but throws errors and the flex doesn't come up
+    - In the project config->artifact definition->restudio.war_**exploded** artifact, the studiodev compiler output needs
+     to be under WEB_INF/classes folder. IntelliJ loses this configuration when it syncs maven poms.
+    - Are you running the hostdeployment.yml docker environment?
+    - If you look at your web traffic and re_shell is missing, clean and package your project with maven to pull the 
+    correct version from artifactory
+- IntelliJ says you are missing classes that are clearly there
+    - Your maven projects maybe out of sync. You can reimport them all with the refresh button in the maven projects 
+    window, but remember that you will then need to update the artifact 
+    definition again.
+- IntelliJ says you are missing classes that are not clearly there
+    - Do a maven clean and package to make sure that code generation and dependency 
+downloads have executed correctly
+- IntelliJ project does not appear to reflect what you saw on the command line.
+    - You might need to tell IntelliJ to synchronize its project trees to 
+catch up
+
 
 ### Lost configuration
 
@@ -108,3 +122,4 @@ If you are making code changes and not seeing them effect your launch, the proje
 ## TODO
 - Figure out how to eliminate the need to update the re-studio.war-exploded artifact
 - look at relocating most of the .iml files back into their modules so they keeps step with their projects
+- Run access against this configuration
