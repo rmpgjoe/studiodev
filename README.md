@@ -74,6 +74,8 @@ configuration.
 
 This should hopefully be the easy part. Make sure you have the docker ijdeploy environment up and running. On the launch bar in IntelliJ, select studio in the drop down and click the Run arrow or Debug bug.
 
+The first time you do this, the Studio runConfiguration may not have found your tomcat install in ~/.reachengine/tomcat/apache-tomcat-7.0.73. If you have trouble finding it due to the hidden directory, use Shift-Cmd-G in find to get you into the ~/.reachengine folder.
+
 When making changes to your running environment, you can "Update" to deploy updated resources and classes without restarting the machine.
 
 ## Troubleshooting
@@ -104,3 +106,5 @@ Then you have most likely lost your studiodev compile output from your artifact 
 If you are making code changes and not seeing them effect your launch, the project you are effecting is probably not getting its class files directly deployed into your artifact. Add the compile output for your project to the artifact as described in [Sync](#sync).
 
 ## TODO
+- Figure out how to eliminate the need to update the re-studio.war-exploded artifact
+- look at relocating most of the .iml files back into their modules so they keeps step with their projects
