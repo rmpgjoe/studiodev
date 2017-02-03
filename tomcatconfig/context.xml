@@ -27,7 +27,6 @@
     -->
 
     <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="300" maxIdle="100" maxWait="10000" name="jdbc/reach-engine" password="levelsbeyond" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/studio" username="reachengine"/>
-    <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="300" maxIdle="100" maxWait="10000" name="jdbc/reach-engine-hibernate" password="levelsbeyond" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/studio" username="reachengine"/>
 
     <!--  Uncomment this to enable Comet connection tacking (provides events
          on session expiration as well as webapp lifecycle) -->
